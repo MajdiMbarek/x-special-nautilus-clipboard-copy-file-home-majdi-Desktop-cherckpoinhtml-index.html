@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> majdi mbarek's portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-size: 15px;
+        }
+
+        nav {
+            background-color: #333;
+            margin: 0;
+
+        }
+
+        nav ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+        }
+
+
+        nav>ul>li>a {
+            color: #aaa;
+            background-color: #FF0;
+            display: block;
+            line-height: 2em;
+            padding: 0.5em 0.5em;
+            text-decoration: none;
+        }
+
+        h1>ul {
+            display: inline-block;
+        }
+
+        .about {
+            text-align: center;
+            background: center;
+            background-color: #D7C9AA;
+            margin-left: 500px;
+            margin-right: 500px;
+            padding-bottom: 10px;
+        }
+
+        .github {
+            color: brown;
+            text-decoration: none;
+            background-color: #FF0;
+            font-size: larger;
+        }
+
+        .work {
+            text-align: center;
+            background: center;
+            background-color: #D7C9AA;
+            margin-left: 500px;
+            margin-right: 500px;
+            padding-bottom: 10px;
+
+        }
+
+        .resume {
+            text-align: center;
+            background-color: #D7C9AA;
+            margin-left: 500px;
+            margin-right: 500px;
+            padding-bottom: 10px;
+        }
+
+        table,
+
+        tr,
+        th,
+        td {
+            border: solid;
+            margin-right: 500px;
+            margin-left: 500px;
+            width: 800px;
+            height: 50px;
+            margin-left: 550px;
+            padding-top: 10px;
+
+        }
+
+        .caption {
+            background: #595827;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: larger;
+        }
+
+        .name {
+            text-align: center;
+            padding-top: 20px;
+            font-size: larger;
+
+
+        }
+
+        video.center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+
+
+        }
+
+        .games {
+            text-align: center;
+        }
+
+        .username {
+            border: solid;
+            background-color: darkslategrey;
+        }
+
+        input {
+            border: solid;
+            margin-left: 5px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #595827;
+            font-size: larger;
+
+        }
+
+        .gmail {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="resume.html">resume</a></li>
+            <li><a href="work.html">work</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="about">
+            <h2>Iam Majdi Mbarek</h2>
+            <p>I'm Majdi,i'm currently studying in Go my code web development</p>
+            <a class="github" href="https://github.com/majdimb" target="_blank">github</a>
+        </section>
+        <section class="work">
+            <h2>my work</h2>
+            <a class="github"
+                href="https://github.com/majdimb/web-checkpoint/blob/main/Ces%20id%C3%A9es%20qui%20collent%20(7).pdf">web-checkpoint</a>
+        </section>
+        <section class="resume">
+            <h2>My resume</h2>
+            <p class="cv"> I write with interest for a General Practitioner position with your [Company name], As a [job
+                position]</p>
+            <p>
+                with over [6 years of] experience, I am confident I possess the skills and temperament required to
+                succeed with your team.</p>
+
+            <p>As my attached resume shows, I have supported various team over my [6 years of] working in this role,</p>
+            <p>I
+                have accomplished a lot, while simultaneously maintaining my work in all task and duties.</p>
+            <p> I thrive in a
+                fast-paced environment and can always be counted on for not just quick, but quality results.</p>
+            <p>I know
+                I
+                can offer the same level of skill and professionalism to your [Company name].</p>
+
+            <p>As I mentioned, my resume is attached for your review.</p>
+            <p>I hope to have the opportunity to discuss how I
+                may contribute to the continued success of your [Company name].</p>
+            <p> Please contact me at your earliest
+                convenience. Thank you for your time and consideration.</p>
+
+
+            <p>Sincerely,</p>
+            </p>
+
+        </section>
+        <h2 class="games">this is video for serie "sequid games"</h2>
+        <video class="center" controls>
+            <source class="center" src="vid.mp4">
+        </video>
+        <table>
+            <caption class="caption">this information about me</caption>
+            <tr>
+                <th>name</th>
+                <th>Address</th>
+                <th>date of Birth</th>
+                <th>the age</th>
+            </tr>
+            <tr>
+                <th>majdi</th>
+                <th>tunisia</th>
+                <th>08/04/2008</th>
+                <th>14</th>
+            </tr>
+        </table>
+        <section>
+            <h2 align="center">Us contact</h2>
+            <form>
+
+                <div class="name">
+                    <label class="username" for="name">username</label>
+                    <input id="name" type="name" placeholder="type your name">
+                </div>
+                <div class="name">
+                    <label class="username">
+                        password
+                    </label>
+                    <input type="password" placeholder="your password">
+                </div>
+                <div class="name">
+                    <label class="username">email</label>
+                    <input type="email" placeholder="your email">
+                </div>
+
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h4>welcome to my website </h4>
+        <p>This is my gmail account</p>
+        <p class="gmail">majdimbarek90@gmail.com</p>
+    </footer>
+
+</body>
+
+</html>
